@@ -4,7 +4,8 @@
   "description": "Api to communicate with the OPENAI API and serve the response from OPENAI to Qwizbot client.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.mjs"
   },
   "repository": {
     "type": "git",
@@ -31,9 +32,12 @@
   },
   "homepage": "https://github.com/mdazlaanzubair/Qwizbot_API#readme",
   "dependencies": {
+    "axios": "^1.3.4",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
+    "nodemon": "^2.0.21",
     "openai": "^3.2.1"
   }
 }
